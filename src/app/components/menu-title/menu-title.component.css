@@ -1,0 +1,13 @@
+.container__menu-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: lightgray;
+  text-align: center;
+}
+.description {
+    font-size: 20px;
+}

@@ -1,3 +1,7 @@
+Based on https://dribbble.com/shots/21286628--Buletin-News-Website
+
+
+
 # AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.

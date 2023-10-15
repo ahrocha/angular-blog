@@ -1,0 +1,7 @@
+.articles__others {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
