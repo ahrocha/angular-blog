@@ -5,8 +5,10 @@ import { Component, Input } from '@angular/core';
   templateUrl: './small-card.component.html',
   styleUrls: ['./small-card.component.css']
 })
-export class SmallCardComponent {
+export class SmallCardComponent {  @Input()
 
+  @Input()
+  id: string = '1';
 
   @Input()
   photo: string = '';

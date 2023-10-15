@@ -3,8 +3,8 @@
         <img src="{{ photo }}" alt="{{title}}">
     </div>
     <div class="text">
-        <h3><a href="{{url}}">{{title}}</a></h3>
-        <p><a href="{{url}}">{{description}}</a></p>
+        <h3><a [routerLink]="['/content', id]">{{title}}</a></h3>
+        <p><a [routerLink]="['/content', id]">{{description}}</a></p>
         <p>Type: <span class="red">{{type}}</span></p>
     </div>
 

@@ -8,6 +8,9 @@ import { Component, Input } from '@angular/core';
 export class BigCardComponent {
 
   @Input()
+  id: string = '1';
+
+  @Input()
   photo: string = '';
 
   @Input()
