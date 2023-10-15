@@ -1,12 +1,11 @@
 <div class="container">
     <div class="photo">
-        <img src="assets/john-wick.jpg" alt="John Wick">
+        <img src="{{ photo }}" alt="{{title}}">
     </div>
     <div class="text">
-        <p>Netflix - 12 minutes ago</p>
-        <h3><a href="#">Where to watch John Wick: chapter 4</a></h3>
-        <p><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</a></p>
-        <p>Movies - 4 minutes read</p>
+        <h3><a href="{{url}}">{{title}}</a></h3>
+        <p><a href="{{url}}">{{description}}</a></p>
+        <p>Type: <span class="red">{{type}}</span></p>
     </div>
 
 </div>

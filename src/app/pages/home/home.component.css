@@ -5,3 +5,6 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+.articles__others .article {
+    flex: 1;
+}

@@ -1,14 +1,47 @@
-<app-menu-bar></app-menu-bar>
+<header>
+    <app-menu-bar></app-menu-bar>
+</header>
 <app-menu-title></app-menu-title>
 
 
 <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card
+        photo="assets/john-wick.jpg"
+        title="John Wick"
+        description="John Wick is an American neo-noir action-thriller media franchise created by screenwriter Derek Kolstad and owned by Summit Entertainment."
+        type="Movie"
+        ></app-big-card>
 </div>
 
 <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+        class="article"
+        photo="assets/american-pie.jpg"
+        title="American Pie"
+        description="Quatro jovens planejam perder sua virgindade a noite da festa do colegio."
+        url="https://www.imdb.com/title/tt0163651/"
+        type="Movie"
+        ></app-small-card>
+    <app-small-card
+        class="article"
+    photo="assets/john-wick.jpg"
+    title="John Wick"
+    description="John Wick is an American neo-noir action-thriller media franchise created by screenwriter Derek Kolstad and owned by Summit Entertainment."
+    type="Movie"></app-small-card>
+    <app-small-card
+        class="article"
+    photo="assets/back-to-the-future.jpg"
+    title="Back to the Future"
+    description="Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown."
+    url="https://www.imdb.com/title/tt0088763/"
+    type="Movie">    
+    ></app-small-card>
+    <app-small-card
+        class="article"
+    photo="assets/jurassic-park.jpg"
+    title="Jurassic Park"
+    description="A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose."
+    url="https://www.imdb.com/title/tt0107290/"
+    type="Movie"
+    ></app-small-card>
 </div>
