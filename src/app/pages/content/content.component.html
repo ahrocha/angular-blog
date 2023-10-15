@@ -5,9 +5,11 @@
 
 <div class="container">
     <div class="text">
-        <h3><a href="{{url}}">{{title}}</a></h3>
-        <p><a href="{{url}}">{{description}}</a></p>
+        <a [routerLink]="['']">Voltar</a>
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
         <p>Type: <span class="red">{{type}}</span></p>
+        <p><a href="{{ url }}" target="_blank">IMDB</a></p>
     </div>
     <div class="photo">
         <img src="{{ photo }}" alt="{{title}}">
